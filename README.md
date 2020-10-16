@@ -1,1 +1,1 @@
-# SInC-Geo
+# Geo-SInC
