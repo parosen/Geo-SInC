@@ -9,6 +9,8 @@ ISCE Version: v2.5.2
 
 MintPy Version: v1.3.1
 
+SAR Theory Phenomenology
+
 Resource: SAR.ipynb 
 
 Expected Outcome: Students learn the basics of phenomenology, including speckle, radar equation, wavelength dependence, polarization, layover, shadow 
