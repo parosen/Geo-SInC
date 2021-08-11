@@ -9,4 +9,3 @@ ISCE Version: v2.5.2
 
 MintPy Version: v1.3.1
 
-Resource: smallbaselineApp_aria.ipynb in section 5.1
