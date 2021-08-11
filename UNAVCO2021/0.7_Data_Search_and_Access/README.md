@@ -9,6 +9,8 @@ ISCE Version: v2.5.2
 
 MintPy Version: v1.3.1
 
+Data Search and Access
+
 Resource: SSARA.ipynb, GRFN.ipynb
 
 Expected Outcome: Students know the SAR platforms collecting data, where relevant SAR data can be found (data files, orbits, ancillary datasets like DEMs) , and understand how to get access to the data and which tools are available to do so (SSARA, Vertex, ARIA Tools…). Students also learn how to intelligently limit the search to just the frames they want
