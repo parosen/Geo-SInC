@@ -10,18 +10,20 @@
  such information to foreign countries or providing access to foreign persons.
 
 
-This repository is meant for Jupyter notebooks meant for instruction at UNAVCO Short Course for InSAR Theory and Processing in Aug 2018.
+This repository is meant for Jupyter notebooks meant for instruction at UNAVCO Short Course for InSAR Theory and Processing in Aug 2021.
 
 
 Instructors
 -----------
 
 1. Paul Rosen (JPL)
-2. Gareth Funning (UC Riverside)
-3. Scott Baker (UNAVCO)
-4. Piyush Agram (JPL)
-5. David Bekaert (JPL)
-6. Heresh Fattahi (JPL)
+2. David Bekaert (JPL)
+3. Heresh Fattahi (JPL)
+4. Gareth Funning (UC Riverside)
+5. Franz Meyer (University of Alaska, Fairbanks)
+6. Brent Minchew (Massachusetts Institute of Technology)
+7. Zhang Yunjun (California Institute of Technology)
+8. Hilarie Davis (Technology for Learning Consortium)
 
 
 Jupyter setup
