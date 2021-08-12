@@ -1,5 +1,15 @@
 # Preparing InSAR data for modeling
 
+2021 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
+
+Instructors: Paul Rosen, David Bekaert, Heresh Fattahi, Gareth Funning, Franz Meyer, Brent Minchew, Hilarie Deavis
+
+TA’s: Shubham Awasthi, Faizan Sabir, Luyen Bui, Pratyusha Gonnuru, Becca Bussard
+
+ISCE Version: v2.5.2
+
+MintPy Version: v1.3.1
+
 InSAR processing is only the starting point for a geophysical analysis of surface deformation. In order to use our unwrapped interferograms to constrain geophysical models, we need to consider a couple of things: the number of datapoints and the satellite line-of-sight vector. 
 
 ## Downsampling InSAR data with a quadtree decomposition
