@@ -15,3 +15,4 @@ Expected Outcome: Students know how to bring up, close down OSL, navigate the fo
 
 Assessment: Short exercise to start up OSL, navigate to a notebook, run it, open a terminal, type some output from the notebook run, shutdown notebook and terminal, and logout. Student self-assessment of comfort level
 
+NOTE: There is no notebook for this training.  Please see the recorded tutorials as directed in the syllabos.
