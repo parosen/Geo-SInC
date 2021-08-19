@@ -15,3 +15,4 @@ Expected Outcome: Develop an understanding of manipulation of raster image data 
 
 Assessment: In class manipulation of tiled data converting between specified projections in a notebook.
 
+NOTE: THIS FOLDER IS DEPRECATED.  THIS MATERIAL IS NOW IN 0.4_Geographic_Information_Science_using_GDAL
