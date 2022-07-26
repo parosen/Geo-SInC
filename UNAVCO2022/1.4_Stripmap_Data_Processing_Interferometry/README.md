@@ -1,11 +1,11 @@
 # Stripmap Data Processing Interferometry
-2021 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
+2022 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
 
-Instructors: Paul Rosen, David Bekaert, Heresh Fattahi, Gareth Funning, Franz Meyer, Brent Minchew, Hilarie Davis, Zhang Yunjun
+Instructors: Paul Rosen, Eric Fielding, David Bekaert, Heresh Fattahi, Gareth Funning, Franz Meyer, Zhang Yunjun
 
 TA’s: Shubham Awasthi, Faizan Sabir, Luyen Bui, Pratyusha Gonnuru, Becca Bussard
 
-ISCE Version: v2.5.2
+ISCE Version: v2.5.3
 
 MintPy Version: v1.3.1
 
