@@ -3,7 +3,7 @@
 
 Instructors: Paul Rosen, Eric Fielding, David Bekaert, Heresh Fattahi, Gareth Funning, Franz Meyer, Zhang Yunjun
 
-TA’s: Shubham Awasthi, Faizan Sabir, Luyen Bui, Pratyusha Gonnuru, Becca Bussard
+TA’s: Niloufar Abolfathian, Forrest Williams, Becca Bussard
 
 ISCE Version: v2.5.3
 
