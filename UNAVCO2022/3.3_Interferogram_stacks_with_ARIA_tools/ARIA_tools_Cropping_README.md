@@ -1,9 +1,9 @@
 # ARIA tools Cropping and Stitching InSAR Products
-2021 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
+2022 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
 
-Instructors: Paul Rosen, David Bekaert, Heresh Fattahi, Gareth Funning, Franz Meyer, Brent Minchew, Hilarie Davis, Zhang Yunjun
+Instructors: Paul Rosen, Eric Fielding, Heresh Fattahi, Gareth Funning, Franz Meyer, Simran Sangha, Zhang Yunjun
 
-TA’s: Shubham Awasthi, Faizan Sabir, Luyen Bui, Pratyusha Gonnuru, Becca Bussard
+TA’s: Becca Bussard, Niloufar Abolfathian, Brett Buzzanga, Emre Havazli
 
 ISCE Version: v2.5.2
 
