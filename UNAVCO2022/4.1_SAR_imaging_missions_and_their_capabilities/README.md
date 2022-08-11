@@ -1,4 +1,4 @@
-# SAR Imaging Missions and Their Capabilities
+# SAR Imaging Missions
 
 2022 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
 
