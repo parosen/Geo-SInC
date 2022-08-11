@@ -5,9 +5,9 @@ Instructors: Heresh Fattahi, Eric Fielding, Gareth Funning, Alex Lewandowski, Fr
 
 TA’s: Niloufar Abolfathian, Becca Bussard, Brett Buzzanga, Emre Havazali
 
-ISCE Version: v2.5.2
+ISCE Version: v2.6
 
-MintPy Version: v1.3.1
+MintPy Version: v1.4.0
 
 Pre-course self-directed: 
 
