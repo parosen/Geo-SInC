@@ -1,5 +1,5 @@
 # Introductions + Agenda Review 
-2021 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
+2022 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
 
 Instructors: Heresh Fattahi, Eric Fielding, Gareth Funning, Alex Lewandowski, Franz Meyer, Paul Rosen, Simran Sangha, Forrest William, Zhang Yunjun
 
