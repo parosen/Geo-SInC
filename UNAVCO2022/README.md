@@ -16,15 +16,15 @@ This repository is meant for Jupyter notebooks meant for instruction at UNAVCO S
 Instructors
 -----------
 
-1. Paul Rosen (JPL)
-2. David Bekaert (JPL)
-3. Heresh Fattahi (JPL)
-4. Gareth Funning (UC Riverside)
+1. Heresh Fattahi (Jet Propulsion Laboratory)
+2. Eric Fielding (Jet Propulsion Laboratory)
+3. Gareth Funning (University of California, Riverside)
+4. Alex Lewandowski (University of Alaska, Fairbanks)
 5. Franz Meyer (University of Alaska, Fairbanks)
-6. Brent Minchew (Massachusetts Institute of Technology)
-7. Zhang Yunjun (California Institute of Technology)
-8. Hilarie Davis (Technology for Learning Consortium)
-
+6. Paul Rosen (Jet Propulsion Laboratory)
+7. Simran Sangha (Jet Propulsion Laboratory)
+8. Forrest Williams (University of Alaska, Fairbanks)
+9. Zhang Yunjun (California Institute of Technology)
 
 Jupyter setup
 -------------

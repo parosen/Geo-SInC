@@ -1,13 +1,13 @@
 # Interferogram Stacks: Temporal-spatial statistical considerations
  2022 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
 
-Instructors: Paul Rosen, Eric Fielding, Heresh Fattahi, Gareth Funning, Franz Meyer, Simran Sangha, Zhang Yunjun
+Instructors: Heresh Fattahi, Eric Fielding, Gareth Funning, Alex Lewandowski, Franz Meyer, Paul Rosen, Simran Sangha, Forrest William, Zhang Yunjun
 
-TA’s: Becca Bussard, Niloufar Abolfathian, Brett Buzzanga, Emre Havazli
+TA’s: Niloufar Abolfathian, Becca Bussard, Brett Buzzanga, Emre Havazali
 
-ISCE Version: v2.5.2
+ISCE Version: v2.6
 
-MintPy Version: v1.3.1
+MintPy Version: v1.4.0
 
 Resource: ARIATSSetup, ARIA video linked in syllabus
 
