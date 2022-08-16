@@ -7,7 +7,7 @@ TA’s: Niloufar Abolfathian, Becca Bussard, Brett Buzzanga, Emre Havazali
 
 ISCE Version: v2.6
 
-MintPy Version: v1.4.0
+MintPy Version: v1.4.1
 
 Resource: Raster Data Manipulation Video and Map Projection Video linked on syllabus
 

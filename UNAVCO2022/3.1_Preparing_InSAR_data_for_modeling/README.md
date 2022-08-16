@@ -8,7 +8,7 @@ TA’s: Niloufar Abolfathian, Becca Bussard, Brett Buzzanga, Emre Havazali
 
 ISCE Version: v2.6
 
-MintPy Version: v1.4.0
+MintPy Version: v1.4.1
 
 InSAR processing is only the starting point for a geophysical analysis of surface deformation. In order to use our unwrapped interferograms to constrain geophysical models, we need to consider a couple of things: the number of datapoints and the satellite line-of-sight vector. 
 

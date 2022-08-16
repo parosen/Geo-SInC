@@ -10,7 +10,7 @@
  such information to foreign countries or providing access to foreign persons.
 
 
-This repository is meant for Jupyter notebooks meant for instruction at UNAVCO Short Course for InSAR Theory and Processing in Aug 2021.
+This repository is meant for Jupyter notebooks meant for instruction at UNAVCO Short Course for InSAR Theory and Processing in Aug 2022.
 
 
 Instructors
@@ -25,6 +25,14 @@ Instructors
 7. Simran Sangha (Jet Propulsion Laboratory)
 8. Forrest Williams (University of Alaska, Fairbanks)
 9. Zhang Yunjun (California Institute of Technology)
+
+Teaching Assistants
+-----------
+
+1. Niloufar Abofathian (Jet Propulsion Laboratory)
+2. Becca Bussard (University of Oregon)
+3. Brett Buzzanga (Jet Propulsion Laboratory)
+4. Emre Havazli (Jet Propulsion Laboratory)
 
 Jupyter setup
 -------------
