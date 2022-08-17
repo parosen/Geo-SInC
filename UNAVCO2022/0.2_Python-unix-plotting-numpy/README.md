@@ -9,9 +9,9 @@ ISCE Version: v2.6
 
 MintPy Version: v1.4.1
 
-Resource: https://byu-hydroinformatics.edunext.io/courses
+Resource: Jupyter notebooks 0.2.1 to 0.2.4
 
-Expected Outcome: Students can follow along in the jupyter notebooks and understand how to modify scripts to try variants of the notebook
+Goal: Gain familiarity with basic operations of Python, Jupyter, numpy and matplotlib
 
-Assessment: Facility with course material during instruction and homeworks
 
+**License Requirements**. The notebooks presented here are remixed from notebooks 01.01 to 01.04 downloaded from https://github.com/jckantor/CBE30338.git and are shared for noncommercial use under terms of the Creative Commons Attribution Noncommercial ShareAlike License. 
