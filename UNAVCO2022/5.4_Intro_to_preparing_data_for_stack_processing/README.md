@@ -62,7 +62,7 @@ sardem --bbox -118 31 -113 36 --data COP -isce
 
 ### 5. Run stackSentinel.py
 
-NOTE: same SNWE/AOI/bbox should be used for "3. data search/download" and "5. run"
+Tips: use the same SNWE/AOI/bbox in "3. data search/download" and "5. run", to avoid the potential descrepency between the downloaded and needed data.
 
 ```bash
 cd ~/data-marmot/test/SaltonSeaSenDT173
