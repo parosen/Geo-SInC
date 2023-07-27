@@ -1,16 +1,6 @@
 # Preparing InSAR data for modeling
 
-2022 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
-
-Instructors: Heresh Fattahi, Eric Fielding, Gareth Funning, Alex Lewandowski, Franz Meyer, Paul Rosen, Simran Sangha, Forrest William, Zhang Yunjun
-
-TA’s: Niloufar Abolfathian, Becca Bussard, Brett Buzzanga, Emre Havazali
-
-ISCE Version: v2.6
-
-MintPy Version: v1.4.1
-
-InSAR processing is only the starting point for a geophysical analysis of surface deformation. In order to use our unwrapped interferograms to constrain geophysical models, we need to consider a couple of things: the number of datapoints and the satellite line-of-sight vector. 
+InSAR processing is only the starting point for a geophysical analysis of surface deformation. In order to use our unwrapped interferograms to constrain geophysical models, we need to consider a couple of things: the number of data points and the satellite line-of-sight vector. 
 
 ## Downsampling InSAR data with a quadtree decomposition
 
@@ -22,7 +12,7 @@ We include two notebooks: quadtree_decomposition_kite and process_quadtree_outpu
 
 InSAR measures displacement in the satellite line-of-sight direction, which we define as a 3-component unit vector. We measure movement towards or away from the satellite in this direction. Often this can result in some unusual-looking deformation patterns, as each component of surface displacement contributes to an interferogram differently.
 
-To see how this works in practice, we include notebooks that calculate the expected displacement fields for the fault slip that occurs in an earthquake, and then project them into line-of-sight (okada_los_components and okada_ascending_descending). The model we use is for a rectangular dislocation in an elastic half space (Okada, 1985), which is a fast-to-compute model that is commonly used in geophysics to represent fault slip in earthquakes.
+To see how this works in practice, we include notebooks that calculate the expected displacement fields for the fault slip that occurs in an earthquake, and then project them into line-of-sight (okada_los_components and okada_ascending_descending). The model we use is for a rectangular dislocation in an elastic half-space (Okada, 1985), which is a fast-to-compute model that is commonly used in geophysics to represent fault slips in earthquakes.
 
 ## Simple earthquake modeling using Okapy
 
