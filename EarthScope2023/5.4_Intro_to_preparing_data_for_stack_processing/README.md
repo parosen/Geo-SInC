@@ -1,18 +1,8 @@
 # Intro to Preparing Data for Stack Processing
-2022 InSAR Processing and Time-Series Analysis for Geophysical Applications: ISCE, ARIA-Tools, and MintPy
 
-Instructors: Heresh Fattahi, Eric Fielding, Gareth Funning, Alex Lewandowski, Franz Meyer, Paul Rosen, Simran Sangha, Forrest William, Zhang Yunjun
+**Resource:** stackStripMap and topsStack videos linked on syllabus
 
-TA’s: Niloufar Abolfathian, Becca Bussard, Brett Buzzanga, Emre Havazali
-
-ISCE Version: v2.6
-
-MintPy Version: v1.4.1
-
-Resource: stackStripMap and topsStack videos linked on syllabus
-
-Expected Outcome: Learn how to prepare stacks from scratch, not relying on ARIA tools.  
-
+**Expected Outcome:** Learn how to prepare stacks from scratch, not relying on ARIA tools.  
 
 ## [ISCE2/topsStack](https://github.com/isce-framework/isce2/blob/main/contrib/stack/topsStack/README.md) demonstration
 
