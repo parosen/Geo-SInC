@@ -6,7 +6,7 @@ InSAR processing is only the starting point for a geophysical analysis of surfac
 
 Using interferograms at full resolution could be considered overkill - the data are highly spatially correlated, and we do not need all of the pixels in an interferogram to represent the key information that it contains. Another consideration is that computation time in modeling scales with the number of data points you are trying to model, so there is a penalty for trying to model more data points than you need to.
 
-We include two notebooks: quadtree_decomposition_kite and process_quadtree_output that use the <i>kite</i> tool in the <i>pyrocko</i> suite to downsample an interferogram using a quadtree decomposition, retaining the most important information and reducing the number of data points to hundreds (from millions!) Also, importantly, <i>kite</i> outputs line-of-sight information for each data point, which is necessary for modeling, as we shall see...
+We include a notebook, quadtree_decomposition_kite_workflow that uses the <i>kite</i> tool in the <i>pyrocko</i> suite to downsample an interferogram using a quadtree decomposition, retaining the most important information and reducing the number of data points to hundreds (from millions!) Also, importantly, <i>kite</i> outputs line-of-sight information for each data point, which is necessary for modeling, as we shall see...
 
 ## Projecting modeled surface displacements into InSAR line-of-sight
 
