@@ -3,9 +3,9 @@
 ###################################
 [Function-1]
 denseOffsets : 
-reference : /Volumes/KINGSTON/unavco2023/stack/merged/SLC/20200112/20200112.slc.full
-secondary : /Volumes/KINGSTON/unavco2023/stack/merged/SLC/20200118/20200118.slc.full
-outprefix : /Volumes/KINGSTON/unavco2023/stack/merged/dense_offsets/20200112_20200118/20200112_20200118
+reference : merged/SLC/20200112/20200112.slc.full
+secondary : merged/SLC/20200118/20200118.slc.full
+outprefix : merged/dense_offsets/20200112_20200118/20200112_20200118
 ww : 256
 wh : 64
 sw : 40
