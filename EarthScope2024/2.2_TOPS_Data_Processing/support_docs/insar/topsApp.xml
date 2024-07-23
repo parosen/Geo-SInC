@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topsApp>
+  <component name="topsinsar">
+    <property name="Sensor name">SENTINEL1</property>
+    <property name="swaths">[3]</property>
+    <property name="range looks">7</property> 
+    <property name="azimuth looks">3</property>
+    <property name="region of interest">[37.98, 38.33, -118.21, -117.68]</property> 
+    <component name="reference">
+      <catalog>reference.xml</catalog>
+    </component>
+    <component name="secondary">
+      <catalog>secondary.xml</catalog>
+    </component>
+    <property name="do unwrap">True</property>
+    <property name="unwrapper name">snaphu_mcf</property>
+    <!--<property name="demfilename">demLat_N37_N39_Lon_W119_W117.dem.wgs84</property>-->
+    <!--<property name="geocode demfilename">Coarse_demLat_N37_N39_Lon_W119_W117.dem.wgs84</property>-->
+  </component>
+</topsApp>
