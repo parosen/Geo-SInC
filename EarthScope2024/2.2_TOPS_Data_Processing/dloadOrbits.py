@@ -10,6 +10,8 @@ from html.parser import HTMLParser
 fmt = '%Y%m%d'
 today = datetime.datetime.now().strftime(fmt)
 
+# this Copernicus SciHub server was disconnected in October 2023, so this script is obsolete
+
 server = 'https://scihub.copernicus.eu/gnss/'
 queryfmt = '%Y-%m-%d'
 datefmt = '%Y%m%dT%H%M%S'
