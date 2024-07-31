@@ -4,7 +4,7 @@ Website: https://www.earthscope.org/event/2024-insar-processing-and-analysis-isc
 
 ISCE version: v2.6.3    
 
-MintPy version: v1.5.2
+MintPy version: v1.6.1
 
 ### Pre-course (self-directed): 
 
@@ -26,15 +26,22 @@ Math, Unix, python, plotting, NumPy basics, downloading data, cloud environment,
 
 + Gareth Funning    
 + Franz Meyer        
++ Kang Wang    
 + Heresh Fattahi    
 + Zhang Yunjun    
 + Eric Fielding    
++ Rowena Lohman    
++ Kristy Tiampo    
++ Ann Chen    
 + Simran Sangha    
-+ Forrest Williams    
++ Brett Buzzanga    
++ Marin Govorcin    
++ Bryan Riel    
++ Zachary Hoppinen    
 + Alex Lewandowski    
 + Jack Tarricone        
-+ Ann Chen    
-+ Rowena Lohman    
-
-### Teaching assistants:
++ Forrest Williams    
++ Becca Bussard    
++ Emre Havazli    
++ Molly Zebker    
 
