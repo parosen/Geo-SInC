@@ -138,12 +138,13 @@ def runAutorift(I1, I2, xGrid, yGrid, Dx0, Dy0, SRx0, SRy0, CSMINx0, CSMINy0, CS
     '''
 
     import isce
-    from components.contrib.geo_autoRIFT.autoRIFT import autoRIFT_ISCE
+    #from components.contrib.geo_autoRIFT.autoRIFT import autoRIFT_ISCE
+    from autoRIFT import autoRIFT_ISCE
+    #import autorift
     import numpy as np
     import isceobj
     import time
     import subprocess
-
 
     obj = autoRIFT_ISCE()
     obj.configure()
@@ -344,9 +345,13 @@ def runAutorift(I1, I2, xGrid, yGrid, Dx0, Dy0, SRx0, SRy0, CSMINx0, CSMINy0, CS
         if (optflag == 1):
             obj.OverSampleRatio = {obj.ChipSize0X:16,obj.ChipSize0X*2:32,obj.ChipSize0X*4:64,obj.ChipSize0X*8:64}
         else:
-            obj.OverSampleRatio = {obj.ChipSize0X:32,obj.ChipSize0X*2:64,obj.ChipSize0X*4:128,obj.ChipSize0X*8:128}
-
-
+            obj.OverSampleRatio = {
+                obj.ChipSize0X: 32,
+                obj.ChipSize0X*2: 64,
+                obj.ChipSize0X*4: 128,
+                obj.ChipSize0X*8: 128,
+                obj.ChipSize0X*16: 128,
+            }
 
 #    ########## export preprocessed images to files; can be commented out if not debugging
 #
@@ -438,8 +443,8 @@ def generateAutoriftProduct(indir_m, indir_s, grid_location, init_offset, search
     import os
 
     import isce
-    from components.contrib.geo_autoRIFT.autoRIFT import __version__ as version
-    #  from autoRIFT import __version__ as version
+    #from components.contrib.geo_autoRIFT.autoRIFT import __version__ as version
+    from autoRIFT import __version__ as version
 
     if optical_flag == 1:
         data_m, data_s = loadProductOptical(indir_m, indir_s)
@@ -537,7 +542,7 @@ def generateAutoriftProduct(indir_m, indir_s, grid_location, init_offset, search
         s_name = os.path.basename(indir_s)
 
         # FIXME: Filter width is a magic variable here and not exposed well.
-        preprocessing_filter_width = 5
+        preprocessing_filter_width = kwargs.get('preprocessing_filter_width', 5)
         if nc_sensor == 'S1':
             preprocessing_filter_width = 21
 
