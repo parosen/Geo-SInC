@@ -219,7 +219,7 @@ def coregisterLoadMetadataOptical(indir_m, indir_s, **kwargs):
 
     import isce
     from components.contrib.geo_autoRIFT.geogrid import GeogridOptical
-#    from geogrid import GeogridOptical
+    #from geogrid import GeogridOptical
 
     obj = GeogridOptical()
 
@@ -279,14 +279,14 @@ def coregisterLoadMetadataOptical(indir_m, indir_s, **kwargs):
     return info, info1
 
 
-def runGeogrid(info, info1, dem, dhdx, dhdy, vx, vy, srx, sry, csminx, csminy, csmaxx, csmaxy, ssm, **kwargs):
+def runGeogrid(info, info1, dem, dhdx, dhdy, vx, vy, srx, sry, csminx, csminy, csmaxx, csmaxy, ssm, init_only=False, **kwargs):
     '''
     Wire and run geogrid.
     '''
 
     import isce
     from components.contrib.geo_autoRIFT.geogrid import Geogrid
-#    from geogrid import Geogrid
+    #from geogrid import Geogrid
 
     from osgeo import gdal
     dem_info = gdal.Info(dem, format='json')
@@ -303,7 +303,7 @@ def runGeogrid(info, info1, dem, dhdx, dhdy, vx, vy, srx, sry, csminx, csminy, c
     obj.numberOfLines = info.numberOfLines
     obj.numberOfSamples = info.numberOfSamples
     obj.nodata_out = -32767
-    obj.chipSizeX0 = 240
+    obj.chipSizeX0 = 60
     obj.gridSpacingX = dem_info['geoTransform'][1]
     obj.orbit = info.orbit
     obj.demname = dem
@@ -334,6 +334,9 @@ def runGeogrid(info, info1, dem, dhdx, dhdy, vx, vy, srx, sry, csminx, csminy, c
 #    obj.srs_min_search = 0
 
     obj.getIncidenceAngle()
+    if init_only:
+        return obj
+
     obj.geogrid()
 
     run_info = {
@@ -366,7 +369,7 @@ def runGeogridOptical(info, info1, dem, dhdx, dhdy, vx, vy, srx, sry, csminx, cs
 
     import isce
     from components.contrib.geo_autoRIFT.geogrid import GeogridOptical
-#    from geogrid import GeogridOptical
+    #from geogrid import GeogridOptical
 
     from osgeo import gdal
     dem_info = gdal.Info(dem, format='json')
