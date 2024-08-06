@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topsApp>
+  <component name="topsinsar">
+    <property name="Sensor name">SENTINEL1</property>
+
+    <component name="reference">
+      <property name="orbit directory">orbits</property>
+      <property name="auxiliary data directory">aux</property>
+      <property name="output directory">reference</property>
+      <property name="safe">safe/S1A_IW_SLC__1SSV_20200510T025515_20200510T025521_032497_03C36B_A924.SAFE</property>
+    </component>
+
+    <component name="secondary">
+      <property name="orbit directory">orbits</property>
+      <property name="auxiliary data directory">aux</property>
+      <property name="output directory">secondary</property>
+      <property name="safe">safe/S1A_IW_SLC__1SSV_20200522T025516_20200522T025522_032672_03C8B8_64C9.SAFE</property>
+    </component> 
+
+    <property name="range looks">7</property>
+    <property name="azimuth looks">3</property>
+    <property name="demFilename">nasadem_wgs84.dem</property>
+    <property name="region of interest">[59.919, 60.301, -140.829, -140.169]</property>
+
+    <!-- For dense offsets, we can skip many of the refinement steps used for InSAR -->
+    <property name="do interferogram">False</property>
+    <property name="do ESD">False</property>
+    <property name="do unwrap">False</property>
+
+    <!-- Parameters for dense offsets -->
+    <property name="do denseoffsets">True</property>
+    <property name="Ampcor window width">128</property>
+    <property name="Ampcor window height">64</property>
+    <property name="Ampcor search window width">20</property>
+    <property name="Ampcor search window height">10</property>
+    <property name="Ampcor skip width">64</property>
+    <property name="Ampcor skip height">32</property>
+
+  </component>
+</topsApp>
