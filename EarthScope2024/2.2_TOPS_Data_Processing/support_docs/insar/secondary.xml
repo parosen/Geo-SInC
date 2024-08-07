@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="reference">
+	<property name="safe">../data/slcs/S1B_IW_SLC__1SDV_20200517T135026_20200517T135056_021622_0290CB_99E2.zip</property>
+  <property name="output directory">secondary</property>
+  <property name="orbit directory">../data/orbits</property>
+</component>
